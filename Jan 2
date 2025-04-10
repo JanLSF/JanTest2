@@ -1,77 +1,48 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Patisserie Sophie</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test pagina Jan</title>
   <style>
-    body { font-family: 'Comic Sans MS', cursive; background: #fffafc; color: #4d2c3d; margin: 0; }
-    header { background: #ffc8dd; padding: 40px; text-align: center; }
-    nav { background: #ffafcc; text-align: center; padding: 10px; }
-    nav a { margin: 0 15px; text-decoration: none; color: #4d2c3d; font-weight: bold; }
-    section { padding: 30px; max-width: 1000px; margin: auto; }
-    .product { background: #ffe5ec; padding: 20px; margin-bottom: 20px; border-radius: 10px; }
-    .product img { max-width: 100%; border-radius: 10px; }
-    form { background: #fcd5ce; padding: 20px; border-radius: 10px; }
-    input, textarea { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px; }
-    button { background: #ffb3c1; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; }
-    footer { text-align: center; padding: 20px; background: #ffc8dd; margin-top: 40px; }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      color: #333;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px;
+    }
+    main {
+      padding: 50px;
+      font-size: 24px;
+    }
+    footer {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1>Patisserie Sophie</h1>
-    <p>Creaties met liefde gebakken</p>
+    <h1>Welkom op de Test pagina van Jan</h1>
   </header>
 
-  <nav>
-    <a href="#sophie">Wie is Sophie?</a>
-    <a href="#producten">Producten</a>
-    <a href="#bestellen">Bestellen</a>
-    <a href="#blog">Bakkersblog</a>
-  </nav>
-
-  <section id="sophie">
-    <h2>Wie is Sophie?</h2>
-    <p>Hoi! Ik ben Sophie, ik ben 13 jaar en bakken is mijn grote passie. Van jongs af aan sta ik graag in de keuken om taarten, cupcakes en andere lekkernijen te maken. Ik wil later graag patissier worden en ben nu al volop bezig met het uitvoeren van echte opdrachten!</p>
-    <p>Ik heb al gebakken voor high teas, verjaardagen, brunches en zelfs een bruiloft! Ik leer graag nieuwe dingen en probeer graag nieuwe recepten of ideeën uit. Heb jij een leuke opdracht of creatief idee? Ik sta overal voor open om iets moois en lekkers te maken!</p>
-  </section>
-
-  <section id="producten">
-    <h2>Mijn Creaties</h2>
-    <div class="product">
-      <h3>Chocolade Cupcakes</h3>
-      <img src="https://via.placeholder.com/400x250.png?text=Cupcakes" alt="Cupcakes">
-      <p>Luchtige chocoladecupcakes met een romige topping. Perfect voor elk feestje!</p>
-    </div>
-    <div class="product">
-      <h3>Regenboogtaart</h3>
-      <img src="https://via.placeholder.com/400x250.png?text=Regenboogtaart" alt="Regenboogtaart">
-      <p>Een vrolijke taart met lagen in alle kleuren van de regenboog. Een feestje om te zien en te proeven!</p>
-    </div>
-  </section>
-
-  <section id="bestellen">
-    <h2>Bestellen</h2>
-    <form name="bestellen" method="POST" data-netlify="true">
-      <input type="hidden" name="form-name" value="bestellen" />
-      <label>Naam</label>
-      <input type="text" name="naam" required>
-      <label>Email</label>
-      <input type="email" name="email" required>
-      <label>Wat wil je bestellen?</label>
-      <textarea name="bericht" rows="5" required></textarea>
-      <button type="submit">Verzenden</button>
-    </form>
-  </section>
-
-  <section id="blog">
-    <h2>Bakkersblog</h2>
-    <p>Hoi! Ik ben Sophie en ik hou van bakken. Op deze plek vertel ik af en toe wat ik heb gemaakt, of deel ik tips voor andere jonge bakkers. Kom snel terug voor nieuwe updates!</p>
-  </section>
+  <main>
+    <p>Dit is een eenvoudige testpagina voor Jan!</p>
+  </main>
 
   <footer>
-    <p>&copy; 2025 Patisserie Sophie - Alle creaties met liefde gemaakt</p>
+    <p>&copy; 2025 Jan</p>
   </footer>
 </body>
 </html>
